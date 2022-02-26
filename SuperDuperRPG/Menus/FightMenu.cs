@@ -15,10 +15,11 @@ namespace SuperDuperRPG.Menus
             Console.WriteLine("Begin of fight menu. create enemy");
             enemy.CreateEnemy();
             Console.WriteLine("HP: " + enemy.enemyHP);
-            Console.WriteLine("Du kämpfs heute gegen: " + enemy.enemyName);
+            Console.WriteLine("You are fightin against: " + enemy.enemyName);
             Console.WriteLine("Test str: " + enemy.enemyStrenght);
             Console.WriteLine("test agility: " + enemy.enemyAgility);
             Console.WriteLine("Test enemy wisdom:" + enemy.enemyWisdom);
+            Console.WriteLine("Press [ENTER] to Continue");
             Console.ReadLine();
         }
 

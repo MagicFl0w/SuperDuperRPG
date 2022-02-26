@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="Characters\Enemys.cs" />
     <Compile Include="Characters\PlayerCharacter.cs" />
+    <Compile Include="Mechanics\Dice.cs" />
     <Compile Include="Menus\FightMenu.cs" />
     <Compile Include="Menus\WelcomeMenu.cs" />
     <Compile Include="Program.cs" />
@@ -59,8 +60,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Mechanics\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

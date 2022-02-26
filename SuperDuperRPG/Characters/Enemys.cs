@@ -27,9 +27,9 @@ namespace SuperDuperRPG.Characters
             Random rnd = new Random();
             int enemyNameIndex = rnd.Next(enemyNamesList.Length);
             enemyName = enemyNamesList[enemyNameIndex];
-            enemyAgility = rnd.Next(1, 6);
-            enemyWisdom = rnd.Next(1, 6);
-            enemyStrenght = rnd.Next(1, 6);
+            enemyAgility = rnd.Next(1, 4);
+            enemyWisdom = rnd.Next(1, 4);
+            enemyStrenght = rnd.Next(1, 4);
             
         }
     }

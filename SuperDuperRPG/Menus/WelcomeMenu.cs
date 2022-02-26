@@ -17,8 +17,8 @@ namespace SuperDuperRPG.Menus
         {
             do
             {
-                Console.WriteLine("Willkommen. Das soll mal ein kleines text spiel werden. Drücke einer der Tasten um zu beginnen");
-                Console.WriteLine("1 - Spiel starten \n0 - Spiel beenden.");
+                Console.WriteLine("Greetings Stranger. This is supposed to be a little Text Adventure Game at some point. Press [ENTER] to continue");
+                Console.WriteLine("1 - Start the game \n0 - Quit the Game.");
                 menuInput = Console.ReadLine();
                 if (menuInput == "1")
                 {
@@ -34,7 +34,7 @@ namespace SuperDuperRPG.Menus
         {
             do
             {
-                Console.WriteLine("Das hier soll das game menu sein bzw arena hub. von hier aus sollen die szenen angesteuert werden");
+                Console.WriteLine("Early version of the arena hub. from here the player choose the different scenes");
                 Console.WriteLine("1 - Start Arena Fight \n2 - Display Stats");
                 menuInput = Console.ReadLine(); 
                 if (menuInput == "2")

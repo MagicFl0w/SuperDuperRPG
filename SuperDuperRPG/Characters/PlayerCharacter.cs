@@ -17,14 +17,14 @@ namespace SuperDuperRPG.Characters
         public void CreateChar()
         {
 
-            Console.WriteLine("Herzlich Willkommen bei der Charakter erstellung.\nDrücken Sie Enter um fortzufahren: ");
+            Console.WriteLine("Welcome to the creation part.\nPress [ENTER] to continue: ");
             Console.ReadLine();
-            Console.WriteLine("Nennen Sie uns Ihren Namen: ");
+            Console.WriteLine("Tell us your name: ");
             playerName = Console.ReadLine();
-            Console.WriteLine("Wie alt sind Sie?: ");
+            Console.WriteLine("How old are you?: ");
             sAge = Console.ReadLine();
             //choose a class:
-            Console.WriteLine("1 - Krieger \n2 - Magier \n3 - Dieb");
+            Console.WriteLine("1 - Warrior \n2 - Mage \n3 - Thief");
             Console.WriteLine("Choose a class: ");
             input = Console.ReadLine();
             if (input == "1")
@@ -54,9 +54,9 @@ namespace SuperDuperRPG.Characters
         public void DisplayStat()
         {
             CharStats();
-            Console.WriteLine(" Dein Name ist " + playerName + "\n Du bist: " + sAge + " Jahre alt");
-            Console.WriteLine(" Klasse: " + PlayerClass + "\n Stärke: " + playerStrenght + "\n Agilität: " + playerAgility + "\n Weisheit: " + playerWisdom);
-            Console.WriteLine("Drücken Sie enter um fortzufahren: ");
+            Console.WriteLine(" Your name is: " + playerName + "\n you are: " + sAge + " years old ");
+            Console.WriteLine(" Class: " + PlayerClass + "\n Strenght: " + playerStrenght + "\n Agility: " + playerAgility + "\n Health: " + playerWisdom);
+            Console.WriteLine("Press [ENTER] to continue: ");
             Console.ReadLine();
         }
 
@@ -85,7 +85,7 @@ namespace SuperDuperRPG.Characters
         }
         public void Thief()
         {
-            playerClass = "Dieb";
+            playerClass = "Thief";
             iStrenght = 1;
             iAgility = 3;
             iWisdom = 2;
